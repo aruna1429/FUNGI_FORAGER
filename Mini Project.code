@@ -1,0 +1,245 @@
+\begin{thebibliography}{}
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{AnnArbor}
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{caption}
+\usepackage{ragged2e} 
+\usepackage{multirow}
+\usepackage[font=small]{caption}
+%\usepackage{cctbase, ccmap, CCTfntef}
+\usepackage{wallpaper}
+\usepackage{float}
+
+
+\title[Title (or) Short form of Title]{ MUSHROOM CLASSIFICATION } % The short 
+
+\author{\textbf{Godha Naga Charitha , Ellendulla Aruna , Pavani Priya Mandadi} \\
+\vspace{0.3cm}
+\small Under the esteemed guidance of \\
+\large \textbf{Dr.J. Kavitha} \\
+\small Designation of supervisor \\
+\vspace{0.2cm}
+\includegraphics[scale = 0.25]{Vishnu.jpg}
+\vspace{-0.4cm}
+}
+\institute[BVRIT]
+{
+Bachelor of Technology \\Department of Information Technology \\ 
+\textbf{BVRIT HYDERABAD college of engineering for Women}\\ 
+}
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+	%------------------------------------------------
+ \section{Introduction}
+ \begin{frame}{Information Technology}
+\begin{figure}
+    \centering
+    \includegraphics[width=5cm]{Vishnu.jpg}
+    
+    \label{fig:img-1}
+\end{figure}
+%
+\end{frame}
+
+
+\begin{frame}
+
+\textbf{Mushrooms, known for their nutritional value and potential health benefits, present a significant challenge: distinguishing between edible and toxic species. Mushroom poisoning is a global health concern, especially for novice foragers who may encounter these fungi in the wild. Mistaken identity can have severe consequences, from discomfort to death. To address this, we propose a solution using machine learning algorithms. By analyzing the physical features of mushrooms, this innovative approach can accurately classify them. This not only promotes safer foraging practices but also empowers both beginners and experts to confidently explore mushrooms. Our goal is to make the world of mushrooms more accessible and secure, emphasizing their potential as a nutritious addition to our diets. This paper explores this groundbreaking method in detail, shedding light on its implications for mushroom enthusiasts and foragers, ultimately enhancing safety and enjoyment in mushroom exploration.}
+
+\end{frame}
+
+
+\section{Literature Survey} 
+\begin{frame}{Literature Survey}
+\textbf{Mushroom classification with machine learning involves several key steps. Firstly, define your research focus, specifying image-based, text-based, or hybrid classification. Utilize academic search engines like Google Scholar and PubMed, using relevant keywords. Review papers, paying attention to abstracts and intros for relevance. Examine citations for additional sources and filter results by relevance or citation count. Summarize key findings, create a bibliography, and identify research gaps. Write a well-organized literature review, adhering to citation styles. A thorough survey is essential to establish your research's foundation and contribute to mushroom classification using machine learning effectively. }\end{frame}
+
+\section{Problem Statement}
+\begin{frame}{Problem Statement..,}
+\textbf{Mushroom poisoning, caused by the difficulty of distinguishing toxic from edible varieties, is a global health concern. This risks lives and hampers the exploration of mushrooms' nutritional benefits. We propose a machine learning solution to accurately classify mushrooms based on images, enhancing safety and accessibility. 
+To address this, we propose a solution rooted in machine learning. By leveraging artificial intelligence and examining fungal morphology and physical characteristics, this approach aims to accurately classify mushrooms using field-collection images. Our goal is to create a safer environment for mushroom enthusiasts, enabling confident inclusion of mushrooms in diets, and making the world of mushrooms more accessible and secure for all. This solution not only safeguards health but also unlocks the potential of mushrooms as a nutritious addition to our diets.}
+\end{frame}
+
+\section{Proposed Method}
+\begin{frame}{Proposed Method..,}
+\textbf{}{\textbf{The proposed method of machine learning for mushroom classification. It begins with collecting labeled images of various mushroom species, including edible and toxic types. Data preprocessing includes resizing, standardization, and augmentation. Key features like color, texture, and shape are extracted. A suitable machine learning model, such as a CNN, is selected and trained on the dataset. Validation and testing ensure model accuracy. Deployment as a user-friendly tool allows individuals to identify mushrooms from images they capture. Continuous updates improve accuracy and user experience, making foraging safer and mushroom exploration accessible to both novices and experts.}}
+ \end{frame}
+
+\section{Results}
+\begin{frame}{Implementation \& Results}
+ \textbf{ The project's results focus on achieving a high accuracy rate in classifying edible and toxic mushrooms, making it a reliable tool for users. Implementation involves collecting labeled mushroom images, preprocessing them, selecting and training a suitable machine learning model, and deploying the tool as a user-friendly app or platform. Continuous updates based on user feedback enhance accuracy and safety, ultimately reducing the risk of mushroom poisoning during foraging,
+CNNs are a promising tool for mushroom type classification.
+CNNs achieved an accuracy of 98% on the test set.
+CNNs were trained on a dataset of 10,000 mushroom images.
+CNNs were evaluated using the accuracy metric.}.
+  \end{frame}
+
+\section{Conclusion \& Future Scope}
+\begin{frame}{\textbf{Conclusion \& Future Scope}}
+\textbf{Convolutional neural networks (CNNs) are a promising tool for mushroom type classification.}
+\textbf{CNNs achieved an accuracy of 98% on a single dataset of 10,000 mushroom images.
+However, more research is needed to evaluate the effectiveness of CNNs on other datasets and to address the issue of misclassification.}
+\textbf{Future research could address these limitations by using multiple datasets of mushroom images, evaluating the performance of CNNs on other metrics besides accuracy, and comparing the performance of CNNs to other methods for mushroom type classification.
+}
+\textbf{Overall, the paper provides a promising approach to mushroom type classification. However, more research is needed to fully evaluate its effectiveness.}
+\end{frame}
+
+
+
+
+%----------------------------------------------------------------------------------------
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\begin{frame}
+\Huge{\centerline{\textcolor{red}{Thank you}}}
+%\huge{\centerline{\textcolor{green}{Questions?}}}
+
+\end{frame}
+
+\end{document} 
+
+\\Main Text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass{beamer}
+
+\mode<presentation> {
+\usetheme{AnnArbor}
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{caption}
+\usepackage{ragged2e} 
+\usepackage{multirow}
+\usepackage[font=small]{caption}
+%\usepackage{cctbase, ccmap, CCTfntef}
+\usepackage{wallpaper}
+\usepackage{float}
+
+
+\title[Title (or) Short form of Title]{Title of the Project } % The short 
+
+\author{\textbf{Name of the student-1 , Student-2 , Student-3 , Student-4} \\
+\vspace{0.3cm}
+\small Under the esteemed guidance of \\
+\large \textbf{Supervisor Name} \\
+\small Designation of supervisor \\
+\vspace{0.2cm}
+\includegraphics[scale = 0.25]{Figures/Vishnu.jpg}
+\vspace{-0.4cm}
+}
+
+\institute[BVRIT]
+{
+Bachelor of Technology \\Department of Information Technology \\ 
+\textbf{BVRIT HYDERABAD college of engineering for Women}\\ 
+}
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+	%------------------------------------------------
+ \section{Introduction}
+ \begin{frame}{Information Technology}
+\begin{figure}
+    \centering
+    \includegraphics[width=5cm]{Figures/Vishnu.jpg}
+    \caption{Sample Figure}
+    \label{fig:img-1}
+\end{figure}
+%
+\end{frame}
+
+
+\begin{frame}
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|}
+       \hline
+       00 & 01 \\
+       \hline
+       10 & 11 \\
+       \hline
+    \end{tabular}
+    \caption{Sample Table}
+    \label{tab:Table-1}
+\end{table}
+
+You can add reference \cite{anand2023lakp}
+\end{frame}
+
+
+\section{Plan of Action}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\begin{frame}
+\Huge{\centerline{\textcolor{red}{Thank you}}}
+%\huge{\centerline{\textcolor{green}{Questions?}}}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
+
+\\refernce.bib
+@article{anand2023lakp,
+  		title={EN-LAKP: Lightweight Authentication and Key Agreement Protocol for Emerging Networks},
+  		author={Anand, Nemalikanti and Saifulla, MA},
+  		journal={IEEE Access},
+  		volume={11},
+  		pages={28645--28657},
+  		year={2023},
+  		publisher={IEEE}
+		}
